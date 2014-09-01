@@ -25,7 +25,8 @@ func main() {
 	app.Usage = "Package Manager in Go: Toolkit"
 	app.Version = MAN_VER
 	app.Commands = []cli.Command{
-		cmd.Init, // initialize database if not exist, placeholder for setup
+		cmd.Init,      // initialize database if not exist, placeholder for setup
+		cmd.Installed, // shows the installed packages, placeholder for testing
 		//  cmd.Setup,	// settings for the user, init db
 		// 	cmd.AddPackage,    // adding a package to the database
 		// 	cmd.ShowPackage,   // showing a package from the database
