@@ -1,9 +1,9 @@
 // Copyright 2014 Jesper Brodersen. All rights reserved.
 // This code is BSD-licensed, see LICENSE file.
 
-// pm-get is a package manger written in Go Language
-// this is the user application for running daily tasks on packages,
-// like browsing, installing, uninstalling and updating
+// pm-tools is a package manger written in Go Language
+// this is the admin application for running CRUD-operations on packages,
+// and settings management.
 package main
 
 import (
@@ -13,7 +13,7 @@ import (
 	"runtime"
 )
 
-const MAN_VER = "0.01 Alpha"
+const MAN_VER = "0.1 Alpha"
 
 func init() {
 	runtime.GOMAXPROCS(runtime.NumCPU())
