@@ -8,7 +8,7 @@ BSD-License applies, see LICENSE for more information.
 Change settings, CRUD-toolkit for packages for GoPack.
 
 ### Overview
-- [Documentation](http://godoc.org/github.com/broeman/pm-get)
+- [Documentation](http://godoc.org/github.com/broeman/pm-tools)
 
 ### Current Version 0.1a
 Placeholders for init (initialize db) and installed (shows all packages installed)
